@@ -48,7 +48,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     setError(null);
     
     try {
-      const response = await axios.post('http://localhost:4000/api/user/login', {
+      const response = await axios.post('https://front.growyourfund.xyz/api/user/login/', {
         email,
         password,
       });
