@@ -103,7 +103,7 @@ const handleSubmit = async (e: React.FormEvent) => {
 
   try {
     const response = await axios.post(
-      "http://localhost:4000/api/ai/create/assistant",
+      "https://front.growyourfund.xyz/api/ai/create/assistant",
       businessInfo,
       {
         headers: {
